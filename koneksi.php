@@ -1,5 +1,5 @@
 <?php
-$host = "web-tugas-cito7.azurewebsites.net"; // <--- UBAH DARI localhost JADI INI
+$host = "127.0.0.1"; // <--- UBAH DARI localhost JADI INI
 $user = "root";
 $pass = "";
 $db   = "db_inventory";
@@ -11,3 +11,4 @@ if (!$conn) {
 }
 
 ?>
+
