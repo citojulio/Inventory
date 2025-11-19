@@ -1,5 +1,5 @@
 <?php
-$host = "127.0.0.1"; // <--- UBAH DARI localhost JADI INI
+$host = "web-tugas-cito7.azurewebsites.net"; // <--- UBAH DARI localhost JADI INI
 $user = "root";
 $pass = "";
 $db   = "db_inventory";
@@ -9,4 +9,5 @@ $conn = mysqli_connect($host, $user, $pass, $db, $port); // Tambahkan $port di a
 if (!$conn) {
     die("Koneksi Gagal: " . mysqli_connect_error());
 }
+
 ?>
